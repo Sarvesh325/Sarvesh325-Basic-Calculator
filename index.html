@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcultor Shukla</title>
+    <style>
+      .calculator {
+        height: 350px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: s;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .display {
+        padding: 2px;
+        height: 100;
+      }
+      .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        height: 350px;
+        width: 250px;
+        justify-content: space-evenly;
+        margin: 20px 25px;
+      }
+      .button {
+        width: 50px;
+        margin: 4px;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      CALCULATOR
+      <div class="display">
+        <label for="display">
+          <input type="text" name="result" id="result" />
+        </label>
+        <button class="submit">Cal</button>
+      </div>
+      <div class="buttons">
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button">4</button>
+        <br />
+        <button class="button">5</button>
+        <button class="button">6</button>
+        <button class="button">7</button>
+        <button class="button">8</button>
+        <br />
+        <button class="button">9</button>
+        <button class="button">+</button>
+        <button class="button">-</button>
+        <button class="button">*</button>
+        <br />
+        <button class="button">/</button>
+        <button class="button">C</button>
+        <button class="button">=</button>
+      </div>
+    </div>
+  </body>
+</html>
